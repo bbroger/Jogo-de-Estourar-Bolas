@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jogo Estourar Bola</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">  
+</head>
+<body>
+    <div class="container">
+        <div class="placar">
+            <label id="label">Placar: </label>
+            <div id="placar"></div><br /><br />
+        </div>
+        <div class="botoes">
+            <div id="iniciar">
+                <a class="BUTTON_GPN" onclick="iniciar()">Iniciar</a>
+            </div>
+            <div id="encerrar">
+                <a src="index.html" class="BUTTON_GPN" onclick="encerrar()">Encerrar</a>
+            </div>
+        </div>
+    </div>
+    <div class="jogo">
+
+    </div>
+    <div class="contador">
+        <label id="label">Contador: </label>
+        <div id="contador"></div><br /><br />
+    </div>
+    <audio id="audio" src="assets/sound/som.mp3" preload="auto"  ></audio>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
